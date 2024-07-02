@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Product</title>
+</head>
+<body>
+    <h2>Delete Product</h2>
+    <p>Are you sure you want to delete "{{ product.name }}"?</p>
+    <!-- Add JavaScript to show confirmation dialog -->
+    <form method="post" id="delete-form">
+        {% csrf_token %}
+        <!-- Use a link instead of a button -->
+        <a href="#" onclick="return confirmDelete();">Yes</a>
+        <!-- Link to go back to the product list -->
+        <a href="{% url 'product_list' %}">No</a>
+    </form>
+
+    <!-- JavaScript function to show confirmation dialog -->
+    <script>
+        function confirmDelete() {
+            if (confirm('Are you sure you want to delete this product?')) {
+                // Submit the form if confirmed
+                document.getElementById('delete-form').submit();
+            }
+            // Prevent default link behavior
+            return false;
+        }
+    </script>
+</body>
+</html>
