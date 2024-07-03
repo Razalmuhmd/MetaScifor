@@ -111,10 +111,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Razal Muhmd - razalrazalraz@gmail.com
 
-Project Link: [https://github.com/your-username/metascifor-internship](https://github.com/your-username/metascifor-internship)
-
+Project Link: https://github.com/RazalMuhmd/metascifor-internship
 ---
 
 Feel free to fill in the placeholders with your specific information!
