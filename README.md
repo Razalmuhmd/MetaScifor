@@ -88,7 +88,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/metascifor-internship.git
+   git clone https://github.com/RazalMuhmd/metascifor-internship.git
    ```
 2. Navigate to the project directory:
    ```sh
