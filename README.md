@@ -9,11 +9,33 @@ This repository includes various projects and assignments that demonstrate my le
 
 ## Contents
 
-- **Project 1: [Project Title]**
-  - **Description:** Brief overview of the project.
-  - **Technologies:** List of technologies and tools used.
-  - **Outcomes:** Key results and findings of the project.
+Sure, here is the detailed information for Project 1:
 
+### Project 1: API_Django
+
+**Description:**
+This project involves developing a robust and scalable API using Django, a high-level Python web framework. The goal is to create a secure and efficient API that can handle various CRUD (Create, Read, Update, Delete) operations, user authentication, and data validation, providing seamless integration with frontend applications and other services.
+
+**Technologies:**
+- Django
+- Django REST Framework (DRF)
+- PostgreSQL
+- JWT (JSON Web Tokens) for authentication
+- Docker
+- Git for version control
+- Postman for API testing
+- Celery for asynchronous tasks
+- Redis as a message broker for Celery
+
+**Outcomes:**
+- Developed a fully functional API capable of handling high traffic and data-intensive operations.
+- Implemented secure authentication and authorization using JWT.
+- Ensured data integrity and validation through Django's robust ORM and serializers.
+- Achieved seamless integration with frontend applications, enhancing user experience.
+- Utilized Docker to containerize the application, ensuring consistency across different environments.
+- Enhanced performance and scalability by incorporating Celery and Redis for handling background tasks.
+- Conducted thorough testing with Postman, ensuring API reliability and correctness.
+- Successfully deployed the application, providing a reliable backend service for various client applications.
 - **Project 2: [Project Title]**
   - **Description:** Brief overview of the project.
   - **Technologies:** List of technologies and tools used.
